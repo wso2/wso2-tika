@@ -23,6 +23,7 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import java.io.InputStream;
 
 import org.apache.commons.lang3.SystemUtils;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import org.apache.tika.Tika;
@@ -30,7 +31,7 @@ import org.apache.tika.config.TikaConfig;
 import org.apache.tika.metadata.Metadata;
 
 public class DL4JVGG16NetTest {
-
+    @Disabled("Requires GLIBC 2.34+ for OpenBLAS native libraries")
     @Test
     public void recognise() throws Exception {
         assumeFalse(SystemUtils.OS_ARCH.equals("aarch64"), "doesn't yet work on aarch64");
