@@ -1501,9 +1501,9 @@
       <url>https://github.com/apache/tika</url>
   -->
   <scm>
-    <tag>2.9.3-rc1</tag>
-    <connection>scm:git:https://github.com/apache/</connection>
-    <developerConnection>scm:git:https://github.com/apache/</developerConnection>
-    <url>https://github.com/apache/tika</url>
+    <tag>HEAD</tag>
+    <connection>scm:git:https://github.com/wso2/wso2-tika</connection>
+    <developerConnection>scm:git:https://github.com/wso2/wso2-tika.git</developerConnection>
+    <url>https://github.com/wso2/wso2-tika</url>
   </scm>
 </project>
