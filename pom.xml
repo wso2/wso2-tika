@@ -29,7 +29,7 @@
     <relativePath>tika-parent/pom.xml</relativePath>
   </parent>
 
-  <artifactId>tika</artifactId>
+  <artifactId>wso2-tika</artifactId>
   <packaging>pom</packaging>
   <name>Apache Tika</name>
   <url>https://tika.apache.org</url>
